@@ -1,5 +1,5 @@
 {
-    "setprefix": "owo ",
+    "setprefix": "w",
     "useSlashCommands": false,
     "commands": {
         "hunt": {
@@ -116,16 +116,16 @@
         },
         "autoHuntBot": {
             "enabled": true,
-            "cashToSpend": 10000,
+            "cashToSpend": 100000,
             "upgrader": {
                 "enabled": true,
                 "traits": {
                     "efficiency": true,
-                    "duration": true,
-                    "cost": true,
+                    "duration": false,
+                    "cost": false,
                     "gain": true,
-                    "exp": true,
-                    "radar": true
+                    "exp": false,
+                    "radar": false
                 },
                 "sleeptime": [
                     10,
@@ -133,11 +133,11 @@
                 ],
                 "priorities": {
                     "efficiency": 4,
-                    "duration": 2,
-                    "cost": 5,
+                    "duration": 0,
+                    "cost": 0,
                     "gain": 4,
-                    "exp": 3,
-                    "radar": 1
+                    "exp": 0,
+                    "radar": 0
                 }
             }
         }
@@ -213,8 +213,8 @@
         ]
     },
     "misspell": {
-        "enabled": false,
-        "frequencyPercentage": 1,
+        "enabled": true,
+        "frequencyPercentage": 2,
         "baseDelay": [
             0.03,
             0.07
@@ -276,7 +276,7 @@
                 "uncommon": true,
                 "rare": true,
                 "epic": true,
-                "mythical": true,
+                "mythical": false,
                 "legendary": false,
                 "fabled": false
             },
@@ -288,8 +288,8 @@
             },
             "disable_hunts_if_no_gems": false
         },
-        "autoLootbox": true,
-        "autoCrate": true
+        "autoLootbox": false,
+        "autoCrate": false
     },
     "customCommands": {
         "enabled": false,
